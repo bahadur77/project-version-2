@@ -424,8 +424,68 @@
     bottom: 0;
 }
 
+.footer-section{
+    display: none;
+}
 
 
+
+
+
+.phone-checkout-btn-section{
+    width: 100%;
+    position: fixed;
+    top: 487px;
+    background-color: #fff;
+    
+}
+.phone-checkout-btn-container{
+    width: 100%;
+    
+}
+.phone-checkout-btn-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+.phn-checkout-btn-total{
+    width: 60%;
+}
+.pcb-total{
+    /* padding-bottom: 5px; */
+}
+.pcb-total-text{
+    color: #444;
+    padding-right: 5px;
+}
+.pcb-total-amaount{
+    color: #EB6529;
+    font-size: 18px;
+}
+.vat-text{
+    color: #444;
+    font-size: 10px;
+}
+.phone-checkout-btn{
+    width: 40%;
+}
+.ph-btn{
+    display: block;
+    padding: 8px;
+    background-color: #EB6529;
+    margin-top: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .phone-checkout-btn-section{
+        display: none;
+    }
+}
 @media only screen and (max-width: 768px) {
     .payment-left{
         width: 100%;
@@ -436,6 +496,12 @@
     }
     .ck-pay-btn{
         display: none;
+    }
+    .payment-right-main{
+        margin-bottom: 28px;
+    }
+    .payment-container{
+        padding: 0 13px;
     }
 }
 
@@ -496,5 +562,8 @@
     }
     .courier-name{
         width: 50%;
+    }
+    .payment-right-main{
+        margin-bottom: 200px;
     }
 }
