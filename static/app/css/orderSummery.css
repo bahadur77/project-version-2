@@ -192,3 +192,12 @@ p{
         padding: 10px 0;
     }
 }
+
+@media only screen and (max-width: 500px){
+    .order-summery-content{
+        padding: 15px 10px;
+    }
+    .order-summery-phn-img{
+        width: 50px;
+    }
+}
